@@ -112,8 +112,8 @@ o	Explain how to optimize the recursive solution to avoid excessive computation.
 
 #DESIGN PRINCIPLES AND PATTERNS**
 
-
-Exercise 1: Implementing the Singleton Pattern
+**
+Exercise 1: Implementing the Singleton Pattern**
 Scenario: 
 You need to ensure that a logging utility class in your application has only one instance throughout the application lifecycle to ensure consistent logging.
 Steps:
@@ -127,7 +127,9 @@ o	Provide a public static method to get the instance of the Logger class.
 o	Write code to ensure that the Logger class follows the Singleton design pattern.
 4.	Test the Singleton Implementation:
 o	Create a test class to verify that only one instance of Logger is created and used across the application.
-Exercise 2: Implementing the Factory Method Pattern
+
+
+**Exercise 2: Implementing the Factory Method Pattern**
 Scenario: 
 You are developing a document management system that needs to create different types of documents (e.g., Word, PDF, Excel). Use the Factory Method Pattern to achieve this.
 Steps:
@@ -142,7 +144,9 @@ o	Create an abstract class DocumentFactory with a method createDocument().
 o	Create concrete factory classes for each document type that extends DocumentFactory and implements the createDocument() method.
 5.	Test the Factory Method Implementation:
 o	Create a test class to demonstrate the creation of different document types using the factory method.
-Exercise 3: Implementing the Builder Pattern
+
+
+**Exercise 3: Implementing the Builder Pattern**
 Scenario: 
 You are developing a system to create complex objects such as a Computer with multiple optional parts. Use the Builder Pattern to manage the construction process.
 Steps:
@@ -157,8 +161,10 @@ o	Provide a build() method in the Builder class that returns an instance of Comp
 o	Ensure that the Computer class has a private constructor that takes the Builder as a parameter.
 5.	Test the Builder Implementation:
 o	Create a test class to demonstrate the creation of different configurations of Computer using the Builder pattern.
-Exercise 4: Implementing the Adapter Pattern
-Scenario: 
+
+
+**Exercise 4: Implementing the Adapter Pattern
+Scenario: **
 You are developing a payment processing system that needs to integrate with multiple third-party payment gateways with different interfaces. Use the Adapter Pattern to achieve this.
 Steps:
 1.	Create a New Java Project:
@@ -171,7 +177,9 @@ o	Create classes for different payment gateways with their own methods.
 o	Create an adapter class for each payment gateway that implements PaymentProcessor and translates the calls to the gateway-specific methods.
 5.	Test the Adapter Implementation:
 o	Create a test class to demonstrate the use of different payment gateways through the adapter.
-Exercise 5: Implementing the Decorator Pattern
+
+
+**Exercise 5: Implementing the Decorator Pattern**
 Scenario: 
 You are developing a notification system where notifications can be sent via multiple channels (e.g., Email, SMS). Use the Decorator Pattern to add functionalities dynamically.
 Steps:
@@ -188,8 +196,8 @@ o	Create concrete decorator classes like SMSNotifierDecorator, SlackNotifierDeco
 o	Create a test class to demonstrate sending notifications via multiple channels using decorators.
 
 
-Exercise 6: Implementing the Proxy Pattern
-Scenario: 
+**Exercise 6: Implementing the Proxy Pattern
+Scenario: **
 You are developing an image viewer application that loads images from a remote server. Use the Proxy Pattern to add lazy initialization and caching.
 Steps:
 1.	Create a New Java Project:
@@ -203,8 +211,10 @@ o	Create a class ProxyImage that implements Image and holds a reference to RealI
 o	Implement lazy initialization and caching in ProxyImage.
 5.	Test the Proxy Implementation:
 o	Create a test class to demonstrate the use of ProxyImage to load and display images.
-Exercise 7: Implementing the Observer Pattern
-Scenario: 
+
+
+**Exercise 7: Implementing the Observer Pattern
+Scenario: **
 You are developing a stock market monitoring application where multiple clients need to be notified whenever stock prices change. Use the Observer Pattern to achieve this.
 Steps:
 1.	Create a New Java Project:
@@ -219,7 +229,9 @@ o	Create an interface Observer with a method update().
 o	Create classes MobileApp, WebApp that implement Observer.
 6.	Test the Observer Implementation:
 o	Create a test class to demonstrate the registration and notification of observers.
-Exercise 8: Implementing the Strategy Pattern
+
+**
+Exercise 8: Implementing the Strategy Pattern**
 Scenario: 
 You are developing a payment system where different payment methods (e.g., Credit Card, PayPal) can be selected at runtime. Use the Strategy Pattern to achieve this.
 Steps:
@@ -233,7 +245,9 @@ o	Create classes CreditCardPayment, PayPalPayment that implement PaymentStrategy
 o	Create a class PaymentContext that holds a reference to PaymentStrategy and a method to execute the strategy.
 5.	Test the Strategy Implementation:
 o	Create a test class to demonstrate selecting and using different payment strategies.
-Exercise 9: Implementing the Command Pattern
+
+
+**Exercise 9: Implementing the Command Pattern**
 Scenario: You are developing a home automation system where commands can be issued to turn devices on or off. Use the Command Pattern to achieve this.
 Steps:
 1.	Create a New Java Project:
@@ -248,7 +262,9 @@ o	Create a class RemoteControl that holds a reference to a Command and a method 
 o	Create a class Light with methods to turn on and off.
 6.	Test the Command Implementation:
 o	Create a test class to demonstrate issuing commands using the RemoteControl.
-Exercise 10: Implementing the MVC Pattern
+
+
+**Exercise 10: Implementing the MVC Pattern**
 Scenario: 
 You are developing a simple web application for managing student records using the MVC pattern.
 Steps:
@@ -264,9 +280,7 @@ o	Create a class StudentController that handles the communication between the mo
 o	Create a main class to demonstrate creating a Student, updating its details using StudentController, and displaying them using StudentView.
 
 
-
-
-Exercise 11: Implementing Dependency Injection
+**Exercise 11: Implementing Dependency Injection**
 Scenario: 
 You are developing a customer management application where the service class depends on a repository class. Use Dependency Injection to manage these dependencies.
 Steps:
